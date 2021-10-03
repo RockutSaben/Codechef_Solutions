@@ -1,5 +1,7 @@
 #Question
-'''Chef went to a shop and buys 'a' pens and 'b' pencils. Each pen costs 'x' units and each pencil costs 'y' units. Now find what is the total amount Chef will spend to buy 'a' pens and 'b' pencils.
+'''Chef went to a shop and buys 'a' pens and 'b' pencils. Each pen costs 'x' units and
+each pencil costs 'y' units. Now find what is the total amount Chef will spend to buy
+ 'a' pens and 'b' pencils.
 
 INPUT:
 First-line will contain 4 space separated integers a, b, x and y respectively.
@@ -27,8 +29,11 @@ Explanation:
  - In the second example, total cost is (1 * 4 + 1 * 8) = 12.
 '''
 
+#NOTE: Please do not copy and paste, kindly try to understand and apply on your own.
+
 #Solution
-#use try and except as without them you miit get EOF (End of file) error
+
+#use try and except as without them you might get EOF (End of file) error
 try:
     #using input().split() to split the total input string into a list of multiple strings containing the individual numbers
     # Applying map(int, input().split()) to convert every individual strings into integers
@@ -43,4 +48,3 @@ try:
 except:
     pass
 
-#NOTE: Please do not copy and paste, kindly try to understand and apply on your own.
